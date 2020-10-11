@@ -5,35 +5,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Brandon Dupitas | Resume</title>
+  <!-- google font cdn -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+  <!-- navigation bar -->
+  <div class="nav-bar">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Work Experience</a>
+      <a href="#education">Education</a>
+      <a href="#footer">Contact</a>
+      <a href="docs/resume.pdf" target="_blank">Download Resume</a>
+    </nav>
+  </div>
   <!-- // Intro -->
-  <header>
-    <div class="content-wrap"> 
-      <img class="profile-img column-narrow" src="images/your-picture.jpg" alt="Brandon Dupitas">
+
+  <section id="about">
+    <header>
+      <div class="content-wrap">
+        <img class="profile-img column-narrow" src="images/your-picture.jpg" alt="Brandon Dupitas">
         <div class="column-wide">
           <h1>Brandon Dupitas</h1>
           <h2>Jacaranda Hall Room: 1600, California State University, Northridge, CA 91324 </h2>
           <p>Gardening enthusiast, people person, aspiring developer.</p>
         </div>
 
-    </div>
-  </header>
+        </div>
+    </header>
+  </section>
+
 
   <main>
     <!-- // Work Experience -->
-    <section class="experience">
+    <section id="experience">
       <div class="content-wrap">
         <h2>Work Experience</h2>
 
         <!-- Job Details: copy this whole block to add more jobs -->
         <div class="column-narrow">
           <h3>Computer Lab Technician</h3>
-          <p>University Student Union</p>
-          <p>18111 Nordhoff Street, Northridge, CA 91330-8272 (818) 677-2251 usu@csun.edu</p>
+          <p>University Student Union, 18111 Nordhoff Street, Northridge, CA 91330-8272 (818) 677-2251 usu@csun.edu</p>
           <p>8/2019 - Present</p>
 
         </div>
@@ -47,10 +63,10 @@
           <ul>
             <li>Provide Computer Lab patrons with one on one assistance in various computer software
               programs, internet and other computer related services.</li>
-              <li>Assists with, implements and facilitates computer training classes for CSUN students</li>
-              <li>Trouble-shoots hardware and software problems</li>
-            </ul>
-            <!-- end of Job Details block. -->
+            <li>Assists with, implements and facilitates computer training classes for CSUN students</li>
+            <li>Trouble-shoots hardware and software problems</li>
+          </ul>
+          <!-- end of Job Details block. -->
 
         </div>
       </div>
@@ -59,11 +75,9 @@
 
 
     <!-- // Education -->
-    <section class=" education">
+    <section id="education">
       <div class="content-wrap">
-
         <h2>Education</h2>
-
         <!-- School details: copy this whole block to add more schools. -->
         <h3>California,State University Northridge - Northridge, Ca</h3>
         <p>Bachelors of Science, Computer Science, May 2021</p>
@@ -85,11 +99,10 @@
     <div class="content-wrap">
       <h2>Let's Keep in Touch!</h2>
       <!-- Social media and contact links. Add or remove any networks. -->
-      <div class="contact-info">
-        <a href="mailto:brandondupitas@gmail.com">Email</a>
-        <a href="https://bdupitas.github.io/" target="_blank">bdupitas.github.io</a>
-        <a href="https://www.linkedin.com/in/bdupitas/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/bdupitas" target="_blank">Github</a>
+      <div id="contact-info">
+        <a href="mailto:brandondupitas@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://www.linkedin.com/in/bdupitas/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/bdupitas" target="_blank"><i class="fab fa-github"></i> Github</a>
       </div>
       <p>Copyright 2020 by Brandon Dupitas</p>
     </div>

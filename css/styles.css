@@ -49,6 +49,8 @@ li {
   font-family: 'Roboto Slab', serif;
 }
 
+/* keeps the navigation bar at the top */
+
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
@@ -59,9 +61,12 @@ li {
 /* Header & Footer
 ------------------------------------*/
 header {
-  background: #0E3E4E;
-}
+  background: linear-gradient(90deg, rgba(11,194,231,.5) 21%, rgba(2,0,36,.5) 100%), url("../images/epcot.png");;
 
+}
+section{
+  padding-top: 50px;
+}
 header h1, header h2 {
   margin: 0;
 }
@@ -78,18 +83,44 @@ footer {
   color: white;
   text-align: center;
 }
+/* navigation-bar
+----------------------------- */
+.nav-bar{
+  text-align: center;
+  padding: 1%;
+  position: fixed;
+  background-color: inherit;
+  width: 100%;
+  top: 0px;
+}
+
+.nav-bar a{
+  padding: 2%;
+}
+
+
+#about{
+
+  /* added margin spacing to compensate for the nav bar */
+}
+
 
 /* Work Experience
 ------------------------------------*/
-.experience {
+/* changed to id so I could point to this section from the nav bar */
+
+#experience {
   background: #F5F5F5;
   color: #000000;
 }
 
 /* Education
 ------------------------------------*/
-.education {
+/* changed to id so I could point to this section from the nav bar */
+
+#education {
   background: #575975;
+  padding-top: 25px; /* override the sections style */
 }
 
 .education li {
@@ -113,7 +144,14 @@ footer {
 
 /* footer
 --------------------------------------- */
-.contact-info a {
+/* changed to id so I could point to this section from the nav bar */
+#contact-info a {
   padding: 10px;
   display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+footer p{
+  font-size: 0.9rem;
 }
