@@ -5,14 +5,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Brandon Dupitas | Resume</title>
+  <!-- google font cdn -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+  <!-- navigation bar -->
+<div class="nav-bar">
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Work Experience</a>
+    <a href="#education">Education</a>
+    <a href="#footer">Contact</a>
+    <a href="docs/resume.pdf" target="_blank">Download Resume</a>
+  </nav>
+</div>
   <!-- // Intro -->
   <header>
-    <div class="content-wrap"> 
+    <div id="about"class="content-wrap">
       <img class="profile-img column-narrow" src="images/your-picture.jpg" alt="Brandon Dupitas">
         <div class="column-wide">
           <h1>Brandon Dupitas</h1>
@@ -25,7 +38,7 @@
 
   <main>
     <!-- // Work Experience -->
-    <section class="experience">
+    <section id="experience">
       <div class="content-wrap">
         <h2>Work Experience</h2>
 
@@ -59,7 +72,7 @@
 
 
     <!-- // Education -->
-    <section class=" education">
+    <section id="education">
       <div class="content-wrap">
 
         <h2>Education</h2>
@@ -81,15 +94,14 @@
   </main>
 
   <!-- // Footer & contact info -->
-  <footer>
+  <footer >
     <div class="content-wrap">
       <h2>Let's Keep in Touch!</h2>
       <!-- Social media and contact links. Add or remove any networks. -->
-      <div class="contact-info">
-        <a href="mailto:brandondupitas@gmail.com">Email</a>
-        <a href="https://bdupitas.github.io/" target="_blank">bdupitas.github.io</a>
-        <a href="https://www.linkedin.com/in/bdupitas/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/bdupitas" target="_blank">Github</a>
+      <div id="contact-info">
+        <a href="mailto:brandondupitas@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://www.linkedin.com/in/bdupitas/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/bdupitas" target="_blank"><i class="fab fa-github"></i> Github</a>
       </div>
       <p>Copyright 2020 by Brandon Dupitas</p>
     </div>
