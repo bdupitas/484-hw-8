@@ -61,10 +61,12 @@ li {
 /* Header & Footer
 ------------------------------------*/
 header {
-  /* background: #0E3E4E; */
-  /* background-image: url("../images/epcot.png"); */
-}
+  background: linear-gradient(90deg, rgba(11,194,231,.5) 21%, rgba(2,0,36,.5) 100%), url("../images/epcot.png");;
 
+}
+section{
+  padding-top: 50px;
+}
 header h1, header h2 {
   margin: 0;
 }
@@ -98,10 +100,8 @@ footer {
 
 
 #about{
-  padding-top: 100px;
-  /* added margin spacing to compensate for the nav bar */
 
-background: linear-gradient(90deg, rgba(11,194,231,.5) 21%, rgba(2,0,36,.5) 100%), url("../images/epcot.png");;
+  /* added margin spacing to compensate for the nav bar */
 }
 
 
@@ -120,6 +120,7 @@ background: linear-gradient(90deg, rgba(11,194,231,.5) 21%, rgba(2,0,36,.5) 100%
 
 #education {
   background: #575975;
+  padding-top: 25px; /* override the sections style */
 }
 
 .education li {
